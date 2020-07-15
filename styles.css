@@ -31,15 +31,15 @@ body {
             #004dff,
             #750787
         );
-    background-size: 300%, 300%;
+    background-size: 300% 300%;
     animation: gradientAnimation 30s ease infinite;
     -webkit-animation: gradientAnimation 30s ease infinite;
 }
 
 @keyframes gradientAnimation{
-    0%{background-position: 0% 0%}
-    50%{background-position: 100% 100%}
-    100%{background-position: 0% 0%}
+    0%{background-position: 0% 100%}
+    50%{background-position: 100% 0%}
+    100%{background-position: 0% 100%}
 }
 
 @-webkit-keyframes gradientAnimation{
